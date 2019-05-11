@@ -1,0 +1,75 @@
+/*input[type="text"]{
+    color: bisque;
+}
+body>p{
+    color: #000000;
+}
+h1.black{
+    color: #000000;
+}
+#black{
+    color: #000000;
+}
+h1#black{
+    color: #000000
+}
+#black h2{
+    color:black;
+}
+h1,h2,h3{
+    color: blue;
+    font-weight: normal;
+    letter-spacing:normal;
+    margin-bottom: 1em;
+    text-transform: lowercase;
+}
+#content,#footer,#supplement{
+    position: absolute;
+    left: 510px;
+    width: 200px;
+}
+*/
+/*CAC THANH DIEU CHINH HINH NEN*/
+body{
+    background-image: url();/*chen thong tin anh vao cho nay*/ 
+    background-color: red;/*chen thong tin mau nen vao cho nay*/
+    background-repeat: inherit;/*repeat the background*/
+    background-position: 100px;/*adjust the position of the image*/
+    background-attachment: fixed;/*Adjust the attachment of the image*/
+}
+/*CAC DIEU CHINH FONT*/
+p{
+    font-family: 'Times New Roman', Times, serif;/*Dieu chinh loai font chu*/
+    font-style: italic;/*Dieu chinh kieu cach cua font*/
+    font-variant: small-caps;/*duoc su dung de tao small-cap effect*/
+    font-weight: 500;/*duoc su dung de tang hoac giam do dam cua chu*/
+    font-size: 200px;/*Duoc dung de tang giam kich thuoc font*/
+    font:2;/*duoc dung de dung tắt de xac dinh so luong cua cac font khac*/
+}
+/*CAC DIEU CHINH O TEXT*/
+p{
+    color:red;/*duoc su dung de chinh mau cho text*/
+    letter-spacing: 1px;/*duoc dung de them hoac giam khoang cach giua cac chu cai cau tao nen tu*/
+    direction: initial;/*duoc dung de dinh danh huong cua text*/
+    word-spacing: 12px;/*duoc dung de tang hoac giam khoang cach giua cac tu*/
+    text-indent: 12px;/*tao khoang cach 2 dau cho doan text*/
+    text-align: center;/*dieu chinh cach can le cho text*/
+    text-decoration: aquamarine;/*Dung de trang tri cho text*/
+    text-transform: lowercase;/*Dung de chinh sua phong cach chu: chu thuong, chu hoa, ...*/
+    white-space: normal;/*Dung chinh sua khoang trang trong dong text*/
+    text-shadow: 12px;/*Dung de them do bong cho text*/
+}
+/*CAC DIEU CHINH O IMAGE*/
+p{
+    border-image: 0ex;/*Dieu chinh duong vien cho anh*/
+    /* height *//*Dung de dieu chinh do cao cua anh*/
+    /*width Dung de dieu chinh chieu dai cua anh*/
+    /*-moz-opacity dieu chinh do trong suot cua buc anh*/
+}
+/*CAC DIEU CHINH O LINK*/
+p{
+    /*:link: Dung de lien ket mot link chua tung dùng*/
+    /*:visited: dung de lien ket mot link da duoc dung*/
+    /*:hover: Dung de xac dinh mot thanh phan dang duoc con tro chuot tro den*/
+    /*active: dung de xac dinh mot thanh phan dang duoc con tro chuot click vào*/
+} 
