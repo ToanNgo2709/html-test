@@ -38,3 +38,26 @@ p.font{/* chi ap dung class font cho the p */
     color:red;
 
 }
+/* 3 loai duoi day thuoc element selector */
+/* group selection */ /* cung hang voi element selector */
+em, strong,  u{
+    text-align:"center";
+    color:aqua;
+}
+/* descendant selector: cac the nam trong the chu */ /* cung hang voi element selector */
+div p{
+    color:violet;
+}
+div p em{
+    color:red;
+}
+/* child selector = the con nam trong the cha */
+div>p{
+    color:darkslategrey;
+}
+div ~ p{
+    color:firebrick;
+}
+div + p{
+    color: black;
+}
