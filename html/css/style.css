@@ -1,63 +1,198 @@
 /*tên gọi css này là external style css*/
+
+
 /* được gọi là selector  */
-strong{
-    color:red;
+
+strong {
+    color: red;
     text-decoration: underline;
 }
-em{
-    color:blue;
+
+em {
+    color: blue;
 }
-h2{
-    color:green;
+
+h2 {
+    color: green;
 }
-/* Dau * la the mac dinh, toan bo cac the se bi ap dat thuoc tinh trong do, con duoc goi la universal selector *//* do manh dung 4 */
-*{
-    background-color:green;
+
+
+/* Dau * la the mac dinh, toan bo cac the se bi ap dat thuoc tinh trong do, con duoc goi la universal selector */
+
+
+/* do manh dung 4 */
+
+* {
+    background-color: white;
 }
-/* element selector */   /* element selector manh hon universal selector *//* do manh dung 3 */
-h3{
-    color:red;
+
+
+/* element selector */
+
+
+/* element selector manh hon universal selector */
+
+
+/* do manh dung 3 */
+
+h3 {
+    color: red;
 }
-body{
-    background-color:green;
+
+body {
+    background-color: white;
 }
-/* id selector */ /* do manh dung 1 */
-#xinchao{
+
+
+/* id selector */
+
+
+/* do manh dung 1 */
+
+#xinchao {
     color: brown;
 }
-#def{
-    color:aqua;
+
+#def {
+    color: aqua;
 }
-/* class selector *//* do manh dung 2 */
-.mausac{
-    color:blueviolet;
+
+
+/* class selector */
+
+
+/* do manh dung 2 */
+
+.mausac {
+    color: blueviolet;
     background-color: blueviolet;
 }
-p.font{/* chi ap dung class font cho the p */
-    font-family: 'Times New Roman', Times, serif;
-    color:red;
 
+p.font {
+    /* chi ap dung class font cho the p */
+    font-family: 'Times New Roman', Times, serif;
+    color: red;
 }
+
+
 /* 3 loai duoi day thuoc element selector */
-/* group selection */ /* cung hang voi element selector */
-em, strong,  u{
-    text-align:"center";
-    color:aqua;
+
+
+/* group selection */
+
+
+/* cung hang voi element selector */
+
+em,
+strong,
+u {
+    text-align: "center";
+    color: aqua;
 }
-/* descendant selector: cac the nam trong the chu */ /* cung hang voi element selector */
-div p{
-    color:violet;
+
+
+/* descendant selector: cac the nam trong the chu */
+
+
+/* cung hang voi element selector */
+
+div p {
+    color: violet;
 }
-div p em{
-    color:red;
+
+div p em {
+    color: red;
 }
+
+
 /* child selector = the con nam trong the cha */
-div>p{
-    color:darkslategrey;
+
+div>p {
+    color: darkslategrey;
 }
-div ~ p{
-    color:firebrick;
+
+div~p {
+    color: firebrick;
 }
-div + p{
+
+div+p {
     color: black;
+}
+
+
+/* pseudo-class*/
+
+a:link {
+    color: green;
+}
+
+a:hover {
+    color: pink;
+}
+
+a:active {
+    color: orange;
+}
+
+a:visited {
+    color: yellow;
+}
+
+.change:hover {
+    color: blue;
+}
+
+p:first-child {
+    color: blue;
+}
+
+p:last-child {
+    color: brown;
+}
+
+p:first-of-type {
+    color: cyan;
+}
+
+p:last-of-type {
+    color: darkblue;
+}
+
+p:nth-child(2)
+/*2n la so chan con 2n+1 la so le, -n+4 tức là đi ngược 4,3,2,1 */
+
+{
+    color: chartreuse;
+}
+
+p:nth-last-of-type(2)
+/*la loai manh nhat*/
+
+{
+    color: aqua;
+}
+
+p:only-child {
+    color: red;
+}
+
+
+/*pseudo element*/
+
+p::first-letter {
+    color: blueviolet;
+}
+
+p::selection {
+    color: blue;
+    background: black;
+}
+
+p::before {
+    content: "tôi nói: "
+}
+
+p::after {
+    content: "xong rồi. ";
+    color: green;
 }
